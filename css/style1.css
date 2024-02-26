@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    height: 60px; /* Chiều cao của logo */
+}
+
+.logo img {
+    width: 150px; /* Đặt kích thước mong muốn của logo */
+    height: auto;
+    margin-top: calc((60px - 30px) / 2); /* Căn giữa theo chiều dọc */
+    
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa text-height: ;o chiều ngang */
+    height: 60px; /* Đặt chiều cao của menu */
+	position: absolute;
+	left: 500px;
+	
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+	
+}
+
+.menu ul li {
+    margin-right: 15px; /* Để tạo khoảng cách giữa các mục menu */
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3C3C3C;
+    display: block; /* Tạo khối cho mỗi mục menu */
+}
+
+.menu ul li a:hover {
+    color: #3C3C3C;
+    background-color: #f0f0f0; /* Màu nền khi di chuột qua */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+.icon1 {
+    margin-left: 70px; 
+	
+}
+.icon1 img {
+    margin: 0 10px; 
+	
+}
+
+/*xong header*/
+.linered {
+	text-decoration: underline darkred;
+	text-underline-offset: 0.2em;
+}
+
+.banner {
+	
+	
+}
+
+/*xong banner*/
+
+h2 {
+	color: #3E3E3E;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+	min-height: 500px;
+}
+.red {
+	color: red;
+	
+}
+.vien {
+	border: 1px solid darkred;
+	border-radius: 5px;
+	padding: 10px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.icon{
+	position: absolute;
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	left: 10%;
+	top: -15%;
+	transition: all 0.3s;
+	
+}
+.icon a{
+	width: 40px;
+	height: 40px;
+	background-color: darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+
+}
+.icon a:hover{
+	background-color: silver; 
+	color: darkred;
+}
+.vien:hover .icon{
+	top: 45%;
+}
+/*xong main*/
+
+section {
+	margin-top: 50px;
+	width: 100%;
+	min-height: 400px;
+	
+}
+
+
+.caption {
+	width: 30%;
+	position: absolute;
+	top: 1600px;
+	left: 500px;
+	
+}
+.center3 {
+	position: absolute;
+	top: 1700px;
+	left: 220px
+}
+
+.pt-30 {
+	padding-top: 30px;
+	
+}
+.textdo {
+	color: darkred;
+}
+.vien1 {
+	border: 1px solid white;
+	text-align: center;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.vien1:hover{
+	background-color: rgba(239,239,239,1.00);
+	
+}
+.vien1 a {
+	text-decoration: none;
+	color: darkred;
+}
+.vien1 a:hover {
+	
+	text-decoration: none;
+	color: gray;
+}
+
+/*xong section*/
+
+
+	
+.boxtext {
+	width: 30%;
+	height: 100px;
+	text-align: center;
+	margin: 40px auto;
+	
+}
+.textright1 {
+	 text-align: justify;
+	 margin-top: 100px;
+	
+}
+.textright2 {
+	 text-align: justify;
+	 margin-top: 50px;
+	
+}
+
+
+
+
+/*xong aside*/
+
+
+
+footer {
+	margin-top: 50px;
+	width: 100%;
+	min-height: 400px;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper {
+	width: 420px;
+	height: 430px;
+	background: transparent;
+	border: 2px solid rgba(235,235,235,1.00);
+	box-shadow: 0 0 10px black; 
+	border-radius: 10px;
+	padding: 20px 30px;
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	
+}
+.wrapper h1{
+	text-align: center;
+	widows: 500px;
+}
+.input-box {
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+
+.form-control {
+	width: 100%;
+	height: 40px;
+	padding: 20px;
+	margin: 5px;
+}
+.form-control2 {
+	width: 100%;
+	height: 70px;
+	padding: 20px;
+	margin: 5px;
+}
+.btn {
+	width: 100%;
+	height: 40px;
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+	
+}
+.btn:hover {
+	width: 100%;
+	height: 40px;
+	background-color: darkorange;
+	color: white;
+	border-radius: 5px;
+	
+}
+.formcontrol {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.w40 {
+	width: 30%;
+	padding: 15px;
+	float: left;
+	background-color: white;
+}
+.w60 {
+	width: 100%;
+	padding: 15px;
+	float: right;
+}
+.btn {
+	width: 100%;
+	padding: 10px;
+	background-color: silver;
+	color: white;
+	border-radius: 5px;
+}
+.btn:hover{
+	background-color: gray;
+	color: white;
+}
+.vienxam{
+	width: 100%;
+	min-height: 400px;
+	border: 1px solid #787676;
+	border-radius: 5px;
+	padding: 15px;
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide1 .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide1 .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+
+
+
+
+
